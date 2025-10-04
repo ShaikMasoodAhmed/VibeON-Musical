@@ -1,4 +1,4 @@
-# 🎶 VibeON <img src="favicon.svg" width="45" alt="VibeON logo">
+# 🎶 VibeON-Musical <img src="favicon.svg" width="45" alt="VibeON logo">
 
 VibeON is a simple yet elegant **music web application** built using **HTML, CSS, and JavaScript**.  
 It allows users to explore, play, and enjoy trending songs in a clean and interactive interface.  
