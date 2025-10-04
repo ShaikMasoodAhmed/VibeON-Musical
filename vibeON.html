@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devoce-width , initial-scale=1.0">
+    <title>vibeOnIt - Musical vibe for everyone</title>
+    <link rel="icon" href="favicon.svg" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="vibeON.css">
+
+<body>
+
+    <nav>
+        <div class="navLeft">
+            <div class="hum">
+                <img class="humImg" src="VibeOn-SVG/humburger.svg" alt="">
+            </div>
+            <div class="log">
+                <img class="logo" src="VibeOn-SVG/Vibelogo.svg">
+            </div>
+            <div class="home">
+                <img class="homeIcon" src="VibeOn-SVG/homeIcon.svg">
+            </div>
+            <div class="search">
+                <img class="searchIcon" src="VibeOn-SVG/searchIcon.svg" alt="">
+                <input type="text" class="searchInput" placeholder="What do you want to Vibe?">
+            </div>
+            <div class="head">
+                <img src="VibeOn-SVG/headset.svg" alt="">
+                <span>VibeON</span>
+            </div>
+        </div>
+        <div class="navRight">
+            <div class="signin">
+                <button class="in">Sign in</button>
+            </div>
+            <div class="logIn">
+                <button id="login">Log in</button>
+            </div>
+            <div class="Premi">
+                <button id="premium">Premium</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="left">
+            <div class="close">
+                <img src="VibeOn-SVG/close.svg" alt="">
+            </div>
+            <div class="lib">
+                <div class="library">
+                    <span>Your Library</span>
+                    <img class="addPlaylist" src="VibeOn-SVG/libPlus.svg" alt="">
+                </div>
+                <div class="libPlayList">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="playlist">
+                <span>Create your playlist</span>
+                <button id="createPlaylist">Create playlist</button>
+            </div>
+            <div class="podcast">
+                <span>Follow podcasts</span>
+                <button id="podcast">Browse podcasts</button>
+            </div>
+            <div class="lang">
+                <button id="lang">
+                    <img src="VibeOn-SVG/langIcon.svg" alt="">
+                    <p>English</p>
+                </button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="container">
+                <div class="cont">
+                    <div class="bar">
+                        <div class="h1">
+                            <span>Choose the playlist to vibe</span>
+                        </div>
+                        <div class="showall">
+                            <span>Show all</span>
+                        </div>
+                    </div>
+
+                    <div class="playlistcards">
+
+
+                        <div id="Telugu"  class="card1">
+                            <img data-album="Telugu_Trending" id="Telugu_trend"class="cardImg"
+                                src="Songs/Telugu_Trending/Telugu_TrendImg.jpe"
+                                alt="">
+                            <img id="teluguSongsPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+                            <div class="cardtxt">
+                                <span>Trending in telugu</span>
+                            </div>
+                        </div>
+                        <div id="Tamil" class="card1">
+                            <img data-album="Tamil_Trending" id="Tamil_trend" class="cardImg" src="Songs/Tamil_Trending/Tamil_Trending.jpg"
+                                alt="">
+                            <img id="tamilSongsPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Trending in tamil</span>
+                            </div>
+                        </div>
+                        <div id="Hindi" class="card1">
+                            <img data-album="Hindi_Trending" class="cardImg" id="Hindi_trend"
+                                src="Songs/Hindi_Trending/Hindi_trendImg.jpg" alt="">
+                            <img id="HindiSongsPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Popular Bollywood</span>
+                            </div>
+                        </div>
+                        <div id="Eng" class="card1">
+                            <img data-album="English_Trending"class="cardImg" id="English_trend"
+                                src="Songs/English_Trending/English_trendImg.jpg" alt="">
+                            <img id="HollywoodSongsPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Popular Hollywood</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="bar">
+                        <div class="h1">
+                            <span>VIBE MODE ON</span>
+                        </div>
+                    </div>
+
+                    <div class="playlistcards">
+                        <div id="aniVibes" class="card1">
+                            <img data-album="Ani_Vibes"class="cardImg" id="aniVibeSongs" src="Songs/Ani_Vibes/AniImg.jpg"
+                                alt="">
+                            <img id="aniVibesPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Anirudh vibes!!</span><br>
+                                <!-- <span>Boost your mood</span> -->
+                            </div>
+                        </div>
+                        <div id="teluguMelody" class="card1">
+                            <img data-album="Telugu_Melody" class="cardImg" id="teluguMelodySongs"
+                                src="Songs/Telugu_Melody/Telugu_MelodyImg.jpg"
+                                alt="">
+                            <img id="teluguMelodyPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Telugu Melody</span>
+                            </div>
+                        </div>
+                        <div id="latestHindi" class="card1">
+                            <img data-album="Hindi_Melody" class="cardImg" id="latestHindiSongs"
+                                src="Songs/Hindi_Melody/HindiMelodyImg.png"
+                                alt="">
+                            <img id="latestHindiPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Hindi feel good songs</span>
+                            </div>
+                        </div>
+                        <div id="English" class="card1">
+                            <img data-album="English_Melody" class="cardImg" id="englishTrendSongs"
+                                src="Songs/English_Melody/EngMelodyImg.jpg" alt="">
+                            <img id="englishMelodyPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>English love songs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="bar">
+                        <div class="h1">
+                            <span>ALL HITS</span>
+                        </div>
+                    </div>
+
+                    <div class="playlistcards">
+                        <div id="HappyTelugu" class="card1">
+                            <img data-album="Happy_Vibes_Telugu" class="cardImg" id="HappyTeluguSongs" src="Songs/Happy_Vibes_Telugu/HappyImg.jpg"
+                                alt="">
+                            <img id="HappyTeluguPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Happy vibes telugu❤️</span><br>
+                                <!-- <span>Boost your mood</span> -->
+                            </div>
+                        </div>
+                        <div id="tamilVibes" class="card1">
+                            <img data-album="Tamil_Vibes" class="cardImg" id="tamilVibesSongs"
+                                src="Songs/Tamil_Vibes/TamilVibeImg.jpg"
+                                alt="">
+                            <img id="tamilVibesPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Tamil Vibes🔥</span>
+                            </div>
+                        </div>
+                        <div id="HindiVibes" class="card1">
+                            <img data-album="Hindi_Vibes" class="cardImg" id="HindiVibesSongs"
+                                src="Songs/Hindi_Vibes/HindiVibeImg.jpg"
+                                alt="">
+                            <img id="HindiVibesPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Vibe with Hindi🎶</span>
+                            </div>
+                        </div>
+                        <div id="EnglishVibes" class="card1">
+                            <img data-album="English_Vibes" class="cardImg" id="EnglishVibesSongs"
+                                src="Songs/English_Vibes/MichaleImg.jpg" alt="">
+                            <img id="EnglishVibesPlay" class="cardPlayBtn" src="VibeOn-SVG/cardPlay.svg" alt="">
+
+                            <div class="cardtxt">
+                                <span>Michael Jackson Vibes⚡</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="songInfo">
+
+                <div class="playbar">
+                    <div class="songTitle">Vibe</div>
+                    <div class="playbtns">
+                        <img id="prev" src="VibeOn-SVG/prev.svg" alt="">
+                        <img id="toggleBtn" src="VibeOn-SVG/play.svg" alt="">
+                        <img id="next" src="VibeOn-SVG/next.svg" alt="">
+                    </div>
+                    <div class="volDur">
+                        <div class="songDuration">00:00 / 00:00</div>
+                        <div class="volume">
+                            <img class="volImg" src="VibeOn-SVG/volume.svg" alt="">
+                            <div class="volRange">
+                                <input id="volRange" type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seekBar">
+                    <div class="skip"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="VibeON.js"></script>
+</body>
+
+</html>
