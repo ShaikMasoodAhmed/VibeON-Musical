@@ -12,6 +12,7 @@ It allows users to explore, play, and enjoy trending songs in a clean and intera
 
 ## 📸 Preview  
 (Add a screenshot of your app here)  
+![VibeON Preview](VibeON-PreviewSS/VibeON-demo1.png)  
 ![VibeON Preview](VibeON-PreviewSS/VibeON-demo2.png)  
 
 ---
