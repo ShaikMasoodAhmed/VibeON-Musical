@@ -6,7 +6,7 @@ It allows users to explore, play, and enjoy trending songs in a clean and intera
 ---
 
 ## 🚀 Live Demo  
-🔗 [Click here to try VibeON](https://your-username.github.io/VibeON/)  
+🔗 [Click here to try VibeON](https://vibeon-musical.netlify.app/)  
 
 ---
 
